@@ -1,6 +1,7 @@
 // Variables
-@import './variables/media';
 @import './variables/color';
+@import './variables/media';
+@import './variables/fonts';
 
 // Global Style
 @import './global/resets.scss';
@@ -8,9 +9,9 @@
 // Global Style End
 
 // Common section
-@import './common/header.scss';
+
 // Common section End
 
 // Pages Style
-
+@import './pages/home.scss';
 // Pages Style End

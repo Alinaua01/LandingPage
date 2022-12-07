@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+$main-fonts: 'Josefin Sans', sans-serif;
+
+.h1 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.04px;
+    line-height: 61px;
+}
+
+.h2 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 63px;
+}
+
+.h3 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 58px;
+}
+
+.h4 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47px;
+    color: $color-black;
+}
+
+.h5 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.h6 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.h7 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:$color-white;
+
+}
