@@ -1,8 +1,29 @@
-.header{
-    &__container{
+.header {
+    &__container {
         background-image: url(../img/Background.jpg);
         padding: 35px 134px;
     }
+    &__contact{
+        display: flex;
+        align-items: center;
+        gap: 47px;
+    }
+    &__contact-email,
+    &__contact-call{
+        display:flex;
+        align-items: center;
+        gap: 18px;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    &__social{
+        display: flex;
+        gap: 30px;
+    }
+
     &__nav-row-1,
     &__nav-row-2 {
         display: flex;
@@ -11,14 +32,25 @@
         gap: 39px;
 
     }
-    &__nav-item:first-child{
+    &__nav-link{
+        color: $color-black;
+        text-transform: uppercase;
+        &:hover{
+            color:$color-royal-blue;
+            cursor: pointer;
+            text-decoration-line: underline;
+        }
+    }
+
+    &__nav-item:first-child {
         padding-left: 52px;
     }
-    &__nav-items:last-child{
+
+    &__nav-items:last-child {
         padding-right: 43px;
     }
-    
-    &__nav-logo{
+
+    &__nav-logo {
         width: 200px;
         height: 90px;
         background-color: $color-white;
@@ -28,16 +60,63 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        bottom: 15px;    
+        bottom: 15px;
     }
-    &__menu{
+
+    &__menu {
+        height: 60px;
         display: flex;
         justify-content: space-between;
-        height: 60px;
-        background:$color-white;
+        background: $color-white;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
-      
     }
-    
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__content-card-img {
+        max-width: 600px;
+        margin-top: 82px;
+        padding-left: 124px;
+        
+    }
+
+    &__content-card {
+        width: 570px;
+        background-color: $color-white;
+        border: 18px solid $color-blue;
+        padding: 40px 23px 40px 30px;
+        margin-top: 172px;
+
+    }
+
+    &__content-card-title {
+        color: $color-royal-blue;
+        padding-bottom: 18px;
+    }
+
+    &__content-card-text {
+        color: $color-grey;
+        padding-bottom: 52px;
+    }
+
+
+    &__content-card-icon-img {
+        width: 149px;   
+    }
+    &__content-card-item{
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    &__content-card-icon{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+    }
+
 }
