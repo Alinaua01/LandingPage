@@ -144,7 +144,7 @@
         background-color: $color-white;
         padding: 120px 135px 120px 161px;
         @media (max-width: $tablet){
-            padding:60px 16px 92px 16px;
+            padding:60px 16px 9px 16px;
         }
     }
 
@@ -209,7 +209,7 @@
 //section features 
 .features{
     &__container{
-        background-image: url(../img/Background.jpg);
+        background-image: url(../img/background1.png);
         padding: 120px 44px 120px 36px;
     }
     &__title{
