@@ -8,9 +8,10 @@
 @import './global/global.scss';
 // Global Style End
 
-// Common section
-
-// Common section End
+// Components section
+@import './components/button.scss';
+@import './components/icon.scss';
+// Components section End
 
 // Pages Style
 @import './pages/home.scss';

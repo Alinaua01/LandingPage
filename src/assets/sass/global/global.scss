@@ -7,3 +7,8 @@ body {
     margin: 0 auto;
     padding: 0 16px;
 }
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
